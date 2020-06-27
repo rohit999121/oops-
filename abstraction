@@ -1,0 +1,33 @@
+#include <iostream>
+
+using namespace std;
+
+class Addtion
+{
+private:
+    int a,b,c;
+public:
+    void getnum(int x,int y)
+    {
+
+        a = x;
+        b =y;
+       c = x+y;
+        cout << " sum of number is " << c << endl;
+
+    }
+    int  setnum()
+    {
+
+         return a;
+    }
+
+};
+int main()
+{
+    cout << "Hello world!" << endl;
+    Addtion add;
+    add.getnum(55,77);
+   cout <<  add.setnum() << endl;
+    return 0;
+}
